@@ -3,12 +3,9 @@ const modeSwitch = document.getElementById('input-mode-switch');
 modeSwitch.addEventListener('click', checkMode);
 
 function checkMode(){
-    console.log('checking...');
     if(modeSwitch.checked){
-        console.log('dark on');
         darkModeOn();
     } else {
-        console.log('dark off');
         darkModeOff();
     }
 }
