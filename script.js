@@ -22,7 +22,7 @@ function darkModeOff(){
 
 
 const pokeContainer = document.querySelector("#pokeContainer");
-const pokemonCount = 1281
+const pokemonCount = 649
 const colors = {
     fire: '#f2985c',
     grass: '#9bcc50',
